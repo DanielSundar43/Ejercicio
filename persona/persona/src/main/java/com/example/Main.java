@@ -14,6 +14,10 @@ public class Main {
     p1.imprimir();
 
 
+    System.out.println("Edad de " + p1.getNombre() + ": " + p1.calcularEdad());
+    System.out.println("Edad de " + p2.getNombre() + ": " + p2.calcularEdad());
+
+
     p2.imprimir();
 
     System.out.println("Accediendo getters:");

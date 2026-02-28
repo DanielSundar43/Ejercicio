@@ -72,4 +72,14 @@ public void setAnoNacimiento(int anoNacimiento) {
         
         System.out.println("-");
     }
+
+
+    public int calcularEdad() {
+    int anoActual = java.time.Year.now().getValue();
+    return anoActual - this.anoNacimiento;
 }
+
+
+
+}
+
